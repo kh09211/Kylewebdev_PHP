@@ -21,12 +21,22 @@ main {
 	}
 }
 */
+p {
+	font-size:18px;
+}
+div.desc {
+	text-align: justify;
+	/* margin: 0 5px 20px 5px;  <--- Use these margins if border added to cols */
+}
+/* This css below tries to keep the bottom border of each col equal at all screen sizes */
+div.fulllength {
+	height: 95%;
+}
+
+/* This code below makes the title font responsive */
 h1 {
     font-family: 'Rubik Mono One', sans-serif;
     font-size: 9vw;
-}
-p {
-	font-size:18px;
 }
 @media screen and (min-width: 1150px) {
   h1 {

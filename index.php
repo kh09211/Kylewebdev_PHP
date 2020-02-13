@@ -18,14 +18,16 @@
 		<div class="tab-pane fade show active" id="nav-portfolio" role="tabpanel" aria-labelledby="nav-portfolio-tab">
 			<br>
 			<div class="container-md">
-				<p>&nbsp Welcome! My name is Kyle and I'm a developer from the United States. Here you will find a short portfolio of some projects that I have completed along with their descriptions. Also each project has a link to view the source code. Check out my GitHub! For more info about me, click on the About tab.</p>
+				<p>&nbsp Welcome! My name is Kyle and I'm a full-stack web developer from the United States. Here you will find a short portfolio of some projects that I have completed along with their descriptions. Also each project has a link to view the site itself and the source code. Check out my <a href="http://github.com/kh09211" target="_blank">GitHub!</a> For more info about me, click on the About tab.</p>
   			</div>
   			<?php require 'portfolio.php'; ?>
   		</div>
   		<div class="tab-pane fade" id="nav-resume" role="tabpanel" aria-labelledby="nav-resume-tab">
-  			<div class="container-md">
+  			<div class="container-md text-center">
   				<br>
-  				<embed src="../media/Kyle_Hopkins-Resume_Latest.pdf" width="100%" height="800px" />
+  				<!-- <embed src="../media/kyle_hopkins-resume_latest.pdf" width="100%" height="800px" /> NOT FUNCTIONAL IN ALL BROWSERS-->
+          Click here to <a href="media/kyle_hopkins-resume_latest.pdf">download/print resume</a>
+          <object width="100%" height="700" data="https://docs.google.com/gview?embedded=true&url=http://kyleweb.dev/media/kyle_hopkins-resume_latest.pdf" class="border"></object>
   			</div>
   		</div>
   		<div class="tab-pane fade" id="nav-about" role="tabpanel" aria-labelledby="nav-about-tab">
@@ -42,7 +44,7 @@
   		</div>
   		<div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
   			<br>
-  			<p>Et et consectetur ipsum labore excepteur est proident excepteur ad velit occaecat qui minim occaecat veniam. Fugiat veniam incididunt anim aliqua enim pariatur veniam sunt est aute sit dolor anim. Velit non irure adipisicing aliqua ullamco irure incididunt irure non esse consectetur nostrud minim non minim occaecat. Amet duis do nisi duis veniam non est eiusmod tempor incididunt tempor dolor ipsum in qui sit</p>
+  			<p>Under Construction see resume for email</p>
   		</div>
 	</div>
 </main>

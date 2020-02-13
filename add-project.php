@@ -13,7 +13,8 @@ if (($_SERVER['REQUEST_METHOD'] == 'POST') && (isset($_POST['submited']))) {
 		'link' => $_POST['link'],
 		'github' => $_POST['github'],
 		'filename' => basename($_FILES['file_to_upload']["name"]),
-		'description' => $_POST['description']
+		'description' => $_POST['description'],
+		'techs' => $_POST['techs']
 	);
 	if (! password_verify($_POST['pass'], $hash)) {
 		echo 'Incorrect password or submit not clicked. Not posted';
@@ -39,6 +40,7 @@ if (($_SERVER['REQUEST_METHOD'] == 'POST') && (isset($_POST['submited']))) {
 <input type="text" placeholder="project name" name="projectname" /><br>
 <input type="text" placeholder="Link to site" name="link" /><br>
 <input type="text" placeholder="github addy" name="github" /><br>
+<input type="text" placeholder="Technologies used" name="techs" /><br>
 <label>Photo File: <input type="file" name="file_to_upload" id="file_to_upload"></label><br>
 <textarea placeholder="description" name="description"></textarea><br>
 <input type="submit" name="submited" />
