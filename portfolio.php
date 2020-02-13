@@ -17,7 +17,7 @@ $projects = array_reverse(import_projects());
 				<br><br>
 				<p>
 				Link</a> to view website<br>
-				Check out the code at my <a href="<?php echo $project['github']; ?>">GitHub</a><br>
+				Check out the code at my <a href="<?php echo $project['github']; ?>" target="_blank">GitHub</a><br>
 				Technologies Used: <i><?php echo $project['techs']?></i><br><hr>
 				<div class="desc"><i><?php echo $project['description']; ?></i></div>
 				</p>

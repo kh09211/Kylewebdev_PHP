@@ -4,9 +4,14 @@
   	background-attachment: fixed;
   	background-position: top, right;
   	width: 100%;
-  	height: 120px;
-
+  	height: 200px; /* 120 */
 } 
+@media screen and (max-width: 1150px) {
+	/* To decrease background photo size with sceen adjustment */
+  #header_photo {
+    height: 15vw;
+  }
+}
 .header {
 	text-align: center;
 	background-color: black;
