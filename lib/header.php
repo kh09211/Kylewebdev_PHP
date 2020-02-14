@@ -49,7 +49,7 @@
 			</nav>
 			<div class="text-center header-text">
 				<h1 class="header-text1 text-light">Full-stack Developer</h1>
-				<h6 class="header-text2 text-light">A mission for quality work and a passsion for the abstract concepts behind the text</h6>
+				<h6 class="header-text2 text-light"><i>A mission for quality work and a passsion for the abstract concepts behind the text</i></h6>
 			</div>
 		</div>
 	</div> <!--header div-->
