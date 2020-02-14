@@ -8,9 +8,12 @@
   	width: 100%;
   	height: 75vh; /* 120 */
 } 
-h1.header-text {
-    font-family: 'Rubik Mono One', sans-serif;
-    font-size: 40px;
+a {
+	color: #3399CC;
+}
+a:hover {
+	color:black;
+	text-decoration: none;
 }
 a.navbar-brand {
 	color: white;
@@ -19,11 +22,22 @@ a.navbar-brand {
 }
 div.header-text {
   	margin: 0;
-	  position: relative;
-	  top: 40%;
-	  -ms-transform: translateY(-50%);
-	  transform: translateY(-50%);
+	position: relative;
+	top: 30%;
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
 	}
+h1 {
+	font-family: 'Rubik Mono One', sans-serif;
+}
+h1.header-text1 {
+    font-family: 'Rubik Mono One', sans-serif;
+    font-size: 40px;
+}
+h6.header-text2 {
+	font-family: 'Rubik Mono One', sans-serif;
+	font-size: 22px;
+}
 .logo {
 	width: 80px;
 }
@@ -34,6 +48,10 @@ div.header-text {
 	}
   	h1.header-text1 {
     	font-size: 30px;
+    }
+    h6.header-text2 {
+    	font-size: 16px;
+    	margin: 0 20% 0 20%;
 	}
 	a.navbar-brand {
 		font-size: 20px;
@@ -70,4 +88,23 @@ div.desc {
 /* This css below tries to keep the bottom border of each col equal at all screen sizes */
 div.fulllength {
 	height: 95%;
+}
+#about {
+		margin-top: 15vh;
+		margin-bottom: 15vh;
+}
+#portfolio {
+	margin-top: 15vh;
+	margin-bottom: 15vh;
+}
+div.bluebox {
+	/* resume tab */
+	background-color: #3399CC;
+	width: 100%;
+	padding-top: 15vh;
+	padding-bottom: 15vh;
+}
+#contact {
+	margin-top: 15vh;
+	height: 80vh;
 }

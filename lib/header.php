@@ -32,8 +32,11 @@
 			  </button>
 			  <div class="collapse navbar-collapse flex-row-reverse mr-3" id="navbarNav">
 			    <ul class="navbar-nav">
+			    	<li class="nav-item active">
+			        <a class="nav-link" href="#portfolio">&nbsp Portfolio &nbsp<span class="sr-only">(current)</span></a>
+			      </li>
 			      <li class="nav-item active">
-			        <a class="nav-link" href="#resume">&nbsp Resume &nbsp<span class="sr-only">(current)</span></a>
+			        <a class="nav-link" href="#resume">&nbsp Resume &nbsp</a>
 			      </li>
 			      <li class="nav-item">
 			        <a class="nav-link" href="#about">&nbsp About &nbsp</a>
@@ -46,10 +49,8 @@
 			</nav>
 			<div class="text-center header-text">
 				<h1 class="header-text1 text-light">Full-stack Developer</h1>
-				<h6 class="text-light">This is a little snippit of text that will say something really cool about me. seriously. it will.</h6>
+				<h6 class="header-text2 text-light">A mission for quality work and a passsion for the abstract concepts behind the text</h6>
 			</div>
-			<br>
-		
 		</div>
 	</div> <!--header div-->
 	
