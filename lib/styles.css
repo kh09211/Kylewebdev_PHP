@@ -30,7 +30,7 @@ div.header-text {
 @media screen and (max-width: 720px) {
 	 /* To decrease objects size with mobile sceen adjustment */
 	.header_photo {
-		height: 60vh;
+		height: 50vh;
 	}
   	h1.header-text1 {
     	font-size: 30px;
