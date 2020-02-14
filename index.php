@@ -16,7 +16,7 @@
 	</nav>
 -->
 <main>
-	<div class="divider-box bg-dark"></div>
+	<div class="divider-box"></div>
 	<div id="portfolio">
 		<br>
 		<div class="container-md" style="text-align: center;">
@@ -26,9 +26,9 @@
 		</div>
 		<?php require 'portfolio.php'; ?>
 	</div>
-	<div class="divider-box bg-dark"></div>
+	<div class="divider-box"></div>
   	<div id="resume">
-  		<div class="bluebox border border-top border-bottom border-dark text-center">
+  		<div class="bluebox text-center">
 	  		<!-- <embed src="../media/kyle_hopkins-resume_latest.pdf" width="100%" height="800px" /> NOT FUNCTIONAL IN ALL BROWSERS-->
 	  		<h1 class="display-4 text-light"><i>Resume</i></h1>
 	  		<br>
@@ -37,7 +37,7 @@
 	        Click here to <a href="media/kyle_hopkins-resume_latest.pdf" class="text-light">download/print resume</a>
   		</div>
   	</div>
-  	<div class="divider-box bg-dark"></div>
+  	<div class="divider-box"></div>
   	<div id="about">
 		<div class="container-md text-center">
 			<br>
