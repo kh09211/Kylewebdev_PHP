@@ -110,11 +110,23 @@ div.divider-box-blue {
 	height: 50px;
 }
 #contact {
-	height: 70vh;
+	padding-top: 15vh;
+	padding-bottom: 15vh;
 }
 div.divider-box{
 	/* dimentions only add color with bootstrap bg-color*/
 	height: 20px;
 	width: 100%;
-	background-color: #B2DAEE;
+	background-color: #68D4DB; /* #B2DAEE alternative*/
+}
+div#contact-form textarea {
+	width: 50vw;
+	height: 20vh;
+}
+div#contact-form input {
+	width: 50vw;
+}
+div#contact-form button {
+	background-color: #3399CC;
+
 }

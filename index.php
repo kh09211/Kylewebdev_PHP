@@ -3,8 +3,7 @@
  * index.php
  * main index page for kyleweb.dev portfolio site
  */
-?>
-<?php require 'lib/header.php'; ?>
+require 'lib/header.php'; ?>
 <!--
 	<nav>
 		<div class="nav nav-tabs" id="nav-tab" role="tablist">
@@ -57,9 +56,11 @@
   	</div>
   	<div class="divider-box-blue"></div>
   	<div id="contact" class="bg-dark">
-  		<div class="container">
+  		<div class="container text-center">
 			<br>
-			<p class="text-light">Form under Construction see resume for email</p>
+			<h1 class="text-light display-4">Contact me!</h1>
+			<br>
+			<?php require 'lib/contact.php'; ?>
 		</div>
 	</div>
 </main>
