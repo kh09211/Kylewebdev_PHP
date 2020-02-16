@@ -2,12 +2,13 @@
 /**
  * contact form for lazymillennial.me
  */
-$email = 'kh09211@georgiasouthern.edu';
-$subject = '!!!! KYLEWEB.DEV: NEW MESSAGE FROM:' . $_POST['the_name'];
-$message = $_POST['the_name'] . ' says: <br>' . $_POST['textbox'] . '<br>' . 'email: ' . $_POST['email'];
 
 if (isset($_POST['submit'])) {
-	mail($to, $subject, $message, $_POST['email']);
+	$email = 'kh09211@georgiasouthern.edu';
+	$subject = '!!!! KYLEWEB.DEV: NEW MESSAGE FROM:' . $_POST['the_name'] . '!!!!';
+	$message = $_POST['the_name'] . ' says: <br>' . $_POST['textbox'] . '<br>' . 'email: ' . $_POST['email'];
+	$headers = "From: " . $_POST['email'];
+	mail($email, $subject, $message, $_POST['email'], $headers);
 	Header('Location: /index.php?submitted'); 
 }
 if (isset($_GET['submitted'])) {
