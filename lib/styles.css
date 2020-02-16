@@ -114,7 +114,6 @@ div.divider-box-blue {
 	padding-bottom: 15vh;
 }
 div.divider-box{
-	/* dimentions only add color with bootstrap bg-color*/
 	height: 20px;
 	width: 100%;
 	background-color: #68D4DB; /* #B2DAEE alternative*/

@@ -5,8 +5,8 @@
 
 if (isset($_POST['submit'])) {
 	$email = 'kh09211@georgiasouthern.edu';
-	$subject = '!!!! KYLEWEB.DEV: NEW MESSAGE FROM:' . $_POST['the_name'] . '!!!!';
-	$message = $_POST['the_name'] . ' says: <br>' . $_POST['textbox'] . '<br>' . 'email: ' . $_POST['email'];
+	$subject = '!!!! KYLEWEB.DEV: NEW MESSAGE FROM: ' . $_POST['the_name'] . ' !!!!';
+	$message = $_POST['the_name'] . ' says: ' . $_POST['textbox'];
 	$headers = "From: " . $_POST['email'];
 	mail($email, $subject, $message, $_POST['email'], $headers);
 	Header('Location: /index.php?submitted'); 
