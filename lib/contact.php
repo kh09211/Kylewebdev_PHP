@@ -6,7 +6,7 @@
 if (isset($_POST['submit'])) {
 	$to = 'kh09211@georgiasouthern.edu';
 	$subject = '!!!! KYLEWEB.DEV: NEW MESSAGE FROM: ' . $_POST['the_name'] . ' !!!!';
-	$message = 'Clients email:' . $_POST['email'] . '\r\n' . $_POST['the_name'] . ' says: ' . $_POST['textbox'];
+	$message = 'Clients email: ' . $_POST['email'] . "\r\n" . $_POST['the_name'] . ' says: ' . $_POST['textbox'];
 	$headers = array (
 		'From' => 'kylewebdevmail@gmail.com',
 		'Reply-To' => $_POST['email'],
