@@ -28,12 +28,12 @@ require 'lib/header.php'; ?>
 	<div class="divider-box"></div>
   	<div id="resume">
   		<div class="bluebox text-center">
-	  		<!-- <embed src="../media/kyle_hopkins-resume_latest.pdf" width="100%" height="800px" /> NOT FUNCTIONAL IN ALL BROWSERS-->
-	  		<h1 class="display-4 text-light"><i>Resume</i></h1>
+	  		<h1 class="display-4 text-light"><i>Skillset</i></h1>
+	  		<br>
 	  		<br>
 	        <?php require 'resume.php' ?>
 	        <br>
-	        Click here to <a href="media/kyle_hopkins-resume_latest.pdf" class="text-light">download/print resume</a>
+	        Click here to <a href="media/kyle_hopkins-resume_latest.pdf" class="text-light">download/print full resume</a>
   		</div>
   	</div>
   	<div class="divider-box"></div>
@@ -56,7 +56,7 @@ require 'lib/header.php'; ?>
   	</div>
   	<div class="divider-box-blue"></div>
   	<div id="contact" class="bg-dark">
-  		<div class="container text-center">
+  		<div class="container-md text-center">
 			<br>
 			<h1 class="text-light display-4">Contact me!</h1>
 			<br>

@@ -1,3 +1,6 @@
+main {
+	font-family: 'Roboto', sans-serif;
+}
 .header_photo {
 	background-color: #3399CC;
 	/* background-image: url("../media/code.jpg");
@@ -68,16 +71,6 @@ a.nav-link {
 a.nav-link:hover {
 	font-size: 22px;
 }
-/*
-main {
-	margin: 15px 10% 0 10%;
-}
-@media screen and (max-width: 480px) {
-	main {
-		margin: 15px 5% 0 5%;
-	}
-}
-*/
 p {
 	font-size:18px;
 }
@@ -85,8 +78,8 @@ div.desc {
 	text-align: justify;
 	/* margin: 0 5px 20px 5px;  <--- Use these margins if border added to cols */
 }
-/* This css below tries to keep the bottom border of each col equal at all screen sizes */
 div.fulllength {
+	/* This css below tries to keep the bottom border of each col equal at all screen sizes */
 	height: 95%;
 }
 #about {
@@ -103,6 +96,18 @@ div.bluebox {
 	width: 100%;
 	padding-top: 15vh;
 	padding-bottom: 15vh;
+}
+#resume ul {
+	text-align: left;
+}
+#resume ul b {
+	color: #68D4DB;
+	font-size: 25px;
+	margin-top: 10px;
+}
+#resume ul li {
+	color: white;
+	font-size: 18px;
 }
 div.divider-box-blue {
 	background-color: #3399CC;
@@ -127,5 +132,13 @@ div#contact-form input {
 }
 div#contact-form button {
 	background-color: #3399CC;
-
+}
+@media screen and (max-width: 720px) {
+	 /* To decrease objects size with mobile sceen adjustment */
+	div#contact-form textarea {
+	width: 80vw;
+	}
+	div#contact-form input {
+		width: 80vw;
+	}
 }
