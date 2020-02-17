@@ -23,7 +23,7 @@ require 'lib/header.php'; ?>
 			<br>
 			<p>&nbsp Welcome! My name is Kyle and I'm a full-stack web developer from the United States. Here you will find links to some of the projects that I have completed along with their descriptions and the source code. Check out my <a href="http://github.com/kh09211" target="_blank">GitHub!</a> For more info about me, click on the <a href="#about">About</a> tab.</p>
 		</div>
-		<?php require 'portfolio.php'; ?>
+		<?php require 'lib/portfolio.php'; ?>
 	</div>
 	<div class="divider-box"></div>
   	<div id="resume">
@@ -31,7 +31,7 @@ require 'lib/header.php'; ?>
 	  		<h1 class="display-4 text-light"><i>Skillset</i></h1>
 	  		<br>
 	  		<br>
-	        <?php require 'resume.php' ?>
+	        <?php require 'lib/resume.php' ?>
 	        <br>
 	        Click here to <a href="media/kyle_hopkins-resume_latest.pdf" class="text-light">download/print full resume</a>
   		</div>

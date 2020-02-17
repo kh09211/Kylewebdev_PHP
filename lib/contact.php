@@ -4,11 +4,16 @@
  */
 
 if (isset($_POST['submit'])) {
-	$email = 'kh09211@georgiasouthern.edu';
+	$to = 'kh09211@georgiasouthern.edu';
 	$subject = '!!!! KYLEWEB.DEV: NEW MESSAGE FROM: ' . $_POST['the_name'] . ' !!!!';
-	$message = $_POST['the_name'] . ' says: ' . $_POST['textbox'];
-	$headers = "From: " . $_POST['email'];
-	mail($email, $subject, $message, $_POST['email'], $headers);
+	$message = 'Clients email:' . $_POST['email'] . '\r\n' . $_POST['the_name'] . ' says: ' . $_POST['textbox'];
+	$headers = array (
+		'From' => 'kylewebdevmail@gmail.com',
+		'Reply-To' => $_POST['email'],
+		'X-Mailer' => 'PHP/' . phpversion()
+		);
+
+	mail($to, $subject, $message, $headers);
 	Header('Location: /index.php?submitted'); 
 }
 if (isset($_GET['submitted'])) {
