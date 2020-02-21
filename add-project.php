@@ -36,7 +36,7 @@ if (($_SERVER['REQUEST_METHOD'] == 'POST') && (isset($_POST['submited']))) {
 ?>
 <h1>Add a project</h1>
 <form action="add-project.php" method="POST" enctype="multipart/form-data">
-<input type="text" placeholder="password" name="pass" /><br>
+<input type="password" placeholder="password" name="pass" /><br>
 <input type="text" placeholder="project name" name="projectname" /><br>
 <input type="text" placeholder="Link to site" name="link" /><br>
 <input type="text" placeholder="github addy" name="github" /><br>

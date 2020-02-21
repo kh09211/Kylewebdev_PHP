@@ -4,7 +4,7 @@
         "link": "http:\/\/www.lazymillennial.me",
         "github": "https:\/\/github.com\/kh09211\/Lazymillennial_Blog",
         "filename": "screenshot_lazymillennial.jpeg",
-        "description": "The Lazy Millennial blog site is special because it was my first attempt to share a coded website live with the world. Originally written only in HTML and CSS, the site has gone through several updates including moving to Bootstrap4's grid and nav system for added responsiveness on smaller screens, and PHP to add more structure by separating the site into components that can be included into the main index page. The latest version of the site will use a MYSQL database to store blog content, and a custom CMS to make adding articles and blogs less time consuming.",
+        "description": "The Lazy Millennial blog site is special because it was my first attempt to share a coded website live with the world. Originally written only in HTML and CSS, the site has gone through several updates including moving to Bootstrap4's grid and nav system for added responsiveness on smaller screens, and PHP to add more structure by separating the site into multiple components that can be included into one main index page. The next version of the site will use a database to store blog content, and a custom CMS to make adding articles and blogs less time consuming.",
         "techs": "HTML5, PHP, CSS3, Bootstrap4"
     },
     {
@@ -12,7 +12,7 @@
         "link": "#",
         "github": "http:\/\/github.com\/kh09211\/Kylewebdev_Portfolio",
         "filename": "screenshot_kylewebdev2.jpeg",
-        "description": "Ironically, I couldn't build a portfolio website without crediting myself with building the site. The website is a pretty simple design with HTML, CSS, and Bootstrap 4's flexbox grid system. A custom CMS makes adding future projects to the portfolio page much easier without need for ftp or ssh. Security is obtained with a hashed password and BCRYPT verification. The CMS uploads a photo to the correct directory using PHP and stores project data in a JSON file. The portfolio page creates an array from the JSON file and loops through the content, displaying each project's data and screenshot.",
+        "description": "Ironically, I couldn't build a portfolio website without crediting myself for the work. This mobile responsive single-page design website was created with HTML, CSS, some PHP, and Bootstrap 4's flexbox grid system. A separate CMS page makes adding future projects to the portfolio page possible without the need for ftp or ssh. Security is obtained with a hashed password and encrypted verification. The CMS uploads a photo to the correct directory using PHP and encodes project data into a JSON format file. The portfolio page then decodes it, creates an array from the contents, and loops through to display each project's data and screenshot photo.",
         "techs": "HTML5, PHP, CSS3, Bootstrap4"
     },
     {
@@ -20,7 +20,15 @@
         "link": "http:\/\/kyleweb.dev\/php_projects\/chatapp\/chat.php",
         "github": "http:\/\/github.com\/kh09211\/PHP_Projects\/tree\/master\/chatapp",
         "filename": "screenshot_chatapp.jpeg",
-        "description": "The Chat App is a simple chatroom built mostly with PHP, but also some Javascript and jQuery for the AJAX and refresh timer. The app uses a MYSQL database to store the comments and usernames. First, form data is POSTed then parsed into an array. PDO database driver is used in PHP to securely connect to the database and make queries using prepared statements to avoid SQL Injection attacks. The user's name is returned to the script via a query parameter. The app is fully mobile responsive using Bootstrap's flexbox grid. ",
-        "techs": "HTML5, PHP, Bootstrap4, Javascript, jQuery"
+        "description": "The Chat App is a simple chatroom built mostly with PHP. Some Javascript and jQuery was used for the AJAX and refresh timer. The app uses a MYSQL database to store comments and usernames. Then, when a new comment is submitted via form data, the POST header is parsed into an array. PHP's PDO database driver is used to securely connect to the database and make queries using prepared statements to protect against SQL Injection. The user's name is returned to the script via a query parameter. The app is mobile responsive using Bootstrap's flexbox grid. ",
+        "techs": "PHP, MYSQL, HTML5 Bootstrap4, Javascript"
+    },
+    {
+        "projectname": "Gallery App",
+        "link": "http:\/\/kyleweb.dev\/php_projects\/galleryapp\/index.php",
+        "github": "https:\/\/github.com\/kh09211\/PHP_Projects\/tree\/master\/galleryapp",
+        "filename": "Screenshot_galleryapp.jpeg",
+        "description": "The gallery app was my first serious-ish attempt to use the OOP paradigm within a dynamic php application. This CRUD type app is mobile responsive and uses objects, namespaces, and Composer to autoload the classes. The database used is SQLite which utilizes a project local DB instead of a client\/server type. The website works by querying a table into an array then looping each row into a bootstrap column along with its corresponding photo. The upload tab allows the user to submit a file to the server and its filename and description into the database. Photos can also be removed from the galley. The form is resistant to SQL injection and uses an encrypted password verification.",
+        "techs": "PHP, SQLite, HTML5, CSS3, Bootstrap4"
     }
 ]
