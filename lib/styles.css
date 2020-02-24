@@ -130,6 +130,9 @@ div#contact-form textarea {
 div#contact-form input {
 	width: 50vw;
 }
+div#contact-form label {
+	color: #3399CC;
+}
 div#contact-form button {
 	background-color: #3399CC;
 }

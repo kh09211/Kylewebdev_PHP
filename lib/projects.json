@@ -30,5 +30,13 @@
         "filename": "Screenshot_galleryapp.jpeg",
         "description": "The gallery app was my first serious-ish attempt to use the OOP paradigm within a dynamic php application. This CRUD type app is mobile responsive and uses objects, namespaces, and Composer to autoload the classes. The database used is SQLite which utilizes a project local DB instead of a client\/server type. The website works by querying a table into an array then looping each row into a bootstrap column along with its corresponding photo. The upload tab allows the user to submit a file to the server and its filename and description into the database. Photos can also be removed from the galley. The form is resistant to SQL injection and uses an encrypted password verification.",
         "techs": "PHP, SQLite, HTML5, CSS3, Bootstrap4"
+    },
+    {
+        "projectname": "Mike Sells Georgia Website",
+        "link": "http:\/\/mikesellsgeorgia.com",
+        "github": "https:\/\/github.com\/kh09211\/Mikesellsgeorgia_Website",
+        "filename": "Screenshot_mikesellsgeorgia.jpeg",
+        "description": "This brochure type, mostly static  website, was developed with a single-page design for user ergonomics. The majority of the markup is with HTML5, bootstrap4's nav and grid system for mobile responsiveness, and some custom CSS to give the page a fresh look with fixed background photos that disappear as user scrolls to the next page. The contact form was written in PHP and sends an e-mail to the website owner using the Postfix mail daemon configured on the Linux server.",
+        "techs": "HTML5, PHP, CSS3, Bootstrap4"
     }
 ]
