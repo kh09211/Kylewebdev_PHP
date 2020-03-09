@@ -36,7 +36,7 @@
         "link": "http:\/\/mikesellsgeorgia.com",
         "github": "https:\/\/github.com\/kh09211\/Mikesellsgeorgia_Website",
         "filename": "Screenshot_mikesellsgeorgia.jpeg",
-        "description": "This brochure type, mostly static  website, was developed with a single-page design for user ergonomics. The majority of the markup is with HTML5, bootstrap4's nav and grid system for mobile responsiveness, and some custom CSS to give the page a fresh look with fixed background photos that disappear as user scrolls to the next page. The contact form was written in PHP and sends an e-mail to the website owner using the Postfix mail daemon configured on the Linux server.",
+        "description": "This brochure type, mostly static  website, was developed with a single-page design for user ergonomics. The majority of the markup is with HTML5, bootstrap4's nav and grid system for mobile responsiveness, and some custom CSS to give the page a fresh look with fixed background photos that disappear as user scrolls to the next page. The contact form was written in PHP and sends an e-mail to the website owner using the Postfix mail daemon configured on an AWS Cloud EC2 server instance.",
         "techs": "HTML5, PHP, CSS3, Bootstrap4"
     }
 ]
