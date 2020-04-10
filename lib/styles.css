@@ -98,7 +98,9 @@ div.bluebox {
 	padding-bottom: 15vh;
 }
 #resume ul {
-	text-align: left;
+	
+	/* background-color: grey; */
+	display: inline-block;
 }
 #resume ul b {
 	color: #68D4DB;

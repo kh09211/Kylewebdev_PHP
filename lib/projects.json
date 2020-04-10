@@ -20,15 +20,15 @@
         "link": "http:\/\/kyleweb.dev\/php_projects\/chatapp\/chat.php",
         "github": "http:\/\/github.com\/kh09211\/PHP_Projects\/tree\/master\/chatapp",
         "filename": "screenshot_chatapp.jpeg",
-        "description": "The Chat App is a simple chatroom built mostly with PHP. Some Javascript and jQuery was used for the AJAX and refresh timer. The app uses a MYSQL database to store comments and usernames. Then, when a new comment is submitted via form data, the POST header is parsed into an array. PHP's PDO database driver is used to securely connect to the database and make queries using prepared statements to protect against SQL Injection. The user's name is returned to the script via a query parameter. The app is mobile responsive using Bootstrap's flexbox grid. ",
-        "techs": "PHP, MYSQL, HTML5 Bootstrap4, Javascript"
+        "description": "The Chat App is a simple chatroom built mostly with vanilla PHP. Some Javascript and jQuery was used for the AJAX and refresh timer. The app uses a MYSQL database to store comments and usernames. Then, when a new comment is submitted via form data, the POST header is parsed into an array. PHP's PDO database driver is used to securely connect to the database and make queries using prepared statements to protect against SQL Injection. The user's name is returned to the script via a query parameter. The app is mobile responsive using Bootstrap's flexbox grid. ",
+        "techs": "PHP, MYSQL, HTML5, Bootstrap4, Javascript"
     },
     {
         "projectname": "Gallery App",
         "link": "http:\/\/kyleweb.dev\/php_projects\/galleryapp\/index.php",
         "github": "https:\/\/github.com\/kh09211\/PHP_Projects\/tree\/master\/galleryapp",
         "filename": "Screenshot_galleryapp.jpeg",
-        "description": "The gallery app was my first serious-ish attempt to use the OOP paradigm within a dynamic php application. This CRUD type app is mobile responsive and uses objects, namespaces, and Composer to autoload the classes. The database used is SQLite which utilizes a project local DB instead of a client\/server type. The website works by querying a table into an array then looping each row into a bootstrap column along with its corresponding photo. The upload tab allows the user to submit a file to the server and its filename and description into the database. Photos can also be removed from the galley. The form is resistant to SQL injection and uses an encrypted password verification.",
+        "description": "The gallery app uses vanilla PHP in the Object Oriented OOP paradigm to create a dynamic CRUD type application. The app is mobile responsive and uses objects, namespaces, and Composer to autoload the classes. The database used is SQLite which utilizes a project local DB instead of a client\/server type. The website works by querying a table into an array then looping each row into a bootstrap column along with its corresponding photo. The upload tab allows the user to submit a file to the server and its filename and description into the database. Photos can also be removed from the galley. The form is resistant to SQL injection and uses a hashed password for verification.",
         "techs": "PHP, SQLite, HTML5, CSS3, Bootstrap4"
     },
     {
@@ -36,7 +36,15 @@
         "link": "http:\/\/mikesellsgeorgia.com",
         "github": "https:\/\/github.com\/kh09211\/Mikesellsgeorgia_Website",
         "filename": "Screenshot_mikesellsgeorgia.jpeg",
-        "description": "This brochure type, mostly static  website, was developed with a single-page design for user ergonomics. The majority of the markup is with HTML5, bootstrap4's nav and grid system for mobile responsiveness, and some custom CSS to give the page a fresh look with fixed background photos that disappear as user scrolls to the next page. The contact form was written in PHP and sends an e-mail to the website owner using the Postfix mail daemon configured on an AWS Cloud EC2 server instance.",
+        "description": "This brochure type  website was developed with a single-page design for a smooth user experience. The majority of the markup is with HTML5, bootstrap4's nav and grid system for mobile responsiveness, and some custom CSS to give the page a fresh look with fixed background photos that disappear as user scrolls to the next page. The contact form was written with vanilla PHP and sends an e-mail to the website owner using the Postfix mail daemon configured on an AWS Cloud EC2 server instance.",
         "techs": "HTML5, PHP, CSS3, Bootstrap4"
+    },
+    {
+        "projectname": "Coronagram Social Media App",
+        "link": "http:\/\/coronagram.club",
+        "github": "https:\/\/github.com\/kh09211\/Coronagram",
+        "filename": "Screenshot_coronagram.jpeg",
+        "description": "Coronagram is a social media platform I created while in quarantine that is functionally similar to the Instagram site and scalable to handle many future users. The project uses the Laravel PHP framework for the back end, Vue.js Javascript framework for some of the front end, and SQLite for the relational database. Users are able to register, login, create and edit profiles, create and delete post with captions and photos, comment with other users, and both follow and be followed by other users. Other technologies used in the project are Composer, Bootstrap 4, Axios, Webpack.js, Node.js, and NPM.",
+        "techs": "PHP Laravel, Vue.js, Bootstrap 4, SQLite, Webpack.js"
     }
 ]
