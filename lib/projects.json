@@ -46,5 +46,13 @@
         "filename": "Screenshot_coronagram.jpeg",
         "description": "Coronagram is a social media platform I created while in quarantine that is functionally similar to the Instagram site and scalable to handle many future users. The project uses the Laravel PHP framework for the back end, Vue.js Javascript framework for some of the front end, and SQLite for the relational database. Users are able to register, login, create and edit profiles, create and delete post with captions and photos, comment with other users, and both follow and be followed by other users. Other technologies used in the project are Composer, Bootstrap 4, Axios, Webpack.js, Node.js, and NPM.",
         "techs": "PHP Laravel, Vue.js, Bootstrap 4, SQLite, Webpack.js"
+    },
+    {
+        "projectname": "Unemployment Portal",
+        "link": "http:\/\/unemployment.kyleweb.dev",
+        "github": "https:\/\/github.com\/kh09211\/Unemployment_Portal.git",
+        "filename": "Screenshot_unemployment2.jpeg",
+        "description": "What would a web developer do if they were stuck in quarantine? Maybe create an actually functional version of their state's unemployment website? That was my inspiration after encountering multiple errors on my own state's site. Applicants arrive at the login page and either login or register. After filling out some information, appeals are made within a particular sequence directed by the 'status' tab. Information is securely stored in the database, shown in the browser, and available for changes at any time by the user. The app uses Laravel PHP framework for the back-end, with Bootstrap4 on the front-end, and MYSQL for the database.",
+        "techs": "PHP Laravel, Bootstrap 4, HTML5, CSS3"
     }
 ]

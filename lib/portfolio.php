@@ -9,7 +9,7 @@ $projects = array_reverse(import_projects());
 <div class="container-md">
 	<div class="row">
 	<?php foreach ($projects as $project) { ?>
-		<div class="col-md-4">
+		<div class="col-md-6">
 			<div class="rounded text-center mt-4 fulllength">
 
 				<a href="<?php echo $project['link']; ?>" target="_blank">

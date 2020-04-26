@@ -32,8 +32,10 @@ require 'lib/header.php'; ?>
 	  		<br>
 	  		<br>
 	        <?php require 'lib/resume.php' ?>
+	        <!--
 	        <br>
 	        Click here to <a href="media/kyle_hopkins-resume_latest.pdf" class="text-light">download/print full resume</a>
+	    -->
   		</div>
   	</div>
   	<div class="divider-box"></div>

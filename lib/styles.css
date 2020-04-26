@@ -20,8 +20,9 @@ a:hover {
 }
 a.navbar-brand {
 	color: white;
-	font-size: 40px;
+	font-size: 35px;
 	font-family: 'Roboto', sans-serif;
+
 }
 div.header-text {
   	margin: 0;
@@ -42,7 +43,7 @@ h6.header-text2 {
 	font-size: 22px;
 }
 .logo {
-	width: 80px;
+	width: 50px;
 }
 @media screen and (max-width: 720px) {
 	 /* To decrease objects size with mobile sceen adjustment */
@@ -57,10 +58,10 @@ h6.header-text2 {
     	margin: 0 20% 0 20%;
 	}
 	a.navbar-brand {
-		font-size: 20px;
+		font-size: 23px;
 	}
 	.logo {
-	width: 40px;
+	width: 30px;
 	}
 }
 a.nav-link {

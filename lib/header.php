@@ -26,7 +26,7 @@
 	<div class=""> <!-- boder bottom txt went here -->
 		<div class="header_photo text-center" id="top">
 			<nav class="navbar navbar-expand-lg navbar-dark">
-			  <a class="navbar-brand" href="#"><img class="logo" src="media/gear2.png" />&nbsp<b>Kyle Hopkins</b></a>
+			  <a class="navbar-brand ml-2" href="#"><img class="logo" src="media/gear2.png" />&nbsp<b>Kyle Hopkins</b></a>
 			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 			    <span class="navbar-toggler-icon"></span>
 			  </button>
