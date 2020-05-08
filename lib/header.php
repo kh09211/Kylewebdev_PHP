@@ -26,30 +26,38 @@
 	<div class=""> <!-- boder bottom txt went here -->
 		<div class="header_photo text-center" id="top">
 			<nav class="navbar navbar-expand-lg navbar-dark">
-			  <a class="navbar-brand ml-2" href="#"><img class="logo" src="media/gear2.png" />&nbsp<b>Kyle Hopkins</b></a>
+			  <a class="navbar-brand ml-2" href="#contact"><img class="logo" src="media/gear2.png" />&nbsp<b>Kyle Hopkins</b></a>
 			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 			    <span class="navbar-toggler-icon"></span>
 			  </button>
 			  <div class="collapse navbar-collapse flex-row-reverse mr-3" id="navbarNav">
 			    <ul class="navbar-nav">
-			    	<li class="nav-item active">
-			        <a class="nav-link" href="#portfolio">&nbsp Portfolio &nbsp<span class="sr-only">(current)</span></a>
-			      </li>
-			      <li class="nav-item active">
-			        <a class="nav-link" href="#resume">&nbsp Resume &nbsp</a>
+			      <li class="nav-item">
+			        <a class="nav-link" href="#services">Services<span class="sr-only">(current)</span></a>
 			      </li>
 			      <li class="nav-item">
-			        <a class="nav-link" href="#about">&nbsp About &nbsp</a>
+			        <a class="nav-link" href="#portfolio">Portfolio<span class="sr-only">(current)</span></a>
 			      </li>
 			      <li class="nav-item">
-			        <a class="nav-link" href="#contact">&nbsp Contact &nbsp</a>
+			        <a class="nav-link" href="#resume">Resume</a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link" href="#about">About</a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link" href="#contact">Contact</a>
+			      </li>
+			      <li class="nav-item">
+			        <form action="#contact">
+			          	<button class="btn btn-outline-light ml-2 mt-2" type="submit" style="padding: 2px 7px 2px 7px;">Hire</button>
+	          		</form>
 			      </li>
 			    </ul>
 			  </div>
 			</nav>
 			<div class="text-center header-text">
-				<h1 class="header-text1 text-light">Full-stack Developer</h1>
-				<h6 class="header-text2 text-light"><i>A mission for quality work and a passsion for the abstract concepts behind the text</i></h6>
+				<h1 class="header-text1 text-light mt-3">Full-stack Developer</h1>
+				<h6 class="header-text2 text-light"><i>A mission for quality work and a passion for the abstract concepts behind the text</i></h6>
 			</div>
 		</div>
 	</div> <!--header div-->

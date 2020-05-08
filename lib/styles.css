@@ -41,10 +41,18 @@ h1.header-text1 {
 h6.header-text2 {
 	font-family: 'Rubik Mono One', sans-serif;
 	font-size: 22px;
+	margin: 0 20% 0 20%;
 }
 .logo {
 	width: 50px;
 }
+#services img.icon {
+	width: 40%;
+}
+#services img.aws {
+	width: 50%;
+}
+
 @media screen and (max-width: 720px) {
 	 /* To decrease objects size with mobile sceen adjustment */
 	.header_photo {
@@ -61,8 +69,14 @@ h6.header-text2 {
 		font-size: 23px;
 	}
 	.logo {
-	width: 30px;
+	 width: 30px;
 	}
+	#services img.icon {
+		width: 25%;
+	}
+	#services img.aws {
+	width: 35%;
+}
 }
 a.nav-link {
 	font-family: 'Roboto', sans-serif;
@@ -87,8 +101,29 @@ div.fulllength {
 		margin-top: 15vh;
 		margin-bottom: 15vh;
 }
+
+#services {
+	margin-top: 10vh;
+	margin-bottom: 5vh;
+}
+
+#services ul {
+	
+	/* background-color: grey; */
+	/* display: inline-block; */
+}
+#services div.text-center b {
+	color: #3399CC;
+	font-size: 28px;
+}
+#services ul li {
+	color: black;
+	font-size: 14px;
+	margin-left: -15px;
+	margin-top: 15px;
+}
 #portfolio {
-	margin-top: 15vh;
+	margin-top: 10vh;
 	margin-bottom: 15vh;
 }
 div.bluebox {
@@ -110,7 +145,8 @@ div.bluebox {
 }
 #resume ul li {
 	color: white;
-	font-size: 18px;
+	font-size: 16px;
+	margin-top: 10px;
 }
 div.divider-box-blue {
 	background-color: #3399CC;

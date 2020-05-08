@@ -14,7 +14,7 @@
 	-->
 	<div class="row justify-content-center">
 		<div class="col-md text-left offset-lg-1">
-			<ul class=""><b>Back End Web Development</b><!-- note:fix -->
+			<ul class=""><b>Back End Development</b>
 				<li>PHP 7 best practices and design principles, use of Composer and Object Orientated Programming (OOP)</li>
 				<li>MySQL and SQLite database queries, migrations, security, and CRUD use with PHP, ORMs, and APIs</li>
 				<li>GIT/Git-Hub versioning software, initializing repositories, making commits, push/pull/forking projects</li>
@@ -22,12 +22,12 @@
 				<li>Database migrations, user authentication, controllers / routers, and use of Webpack.js, Node.js and NPM</li>
 				<li>Code debugging, parsing data, form validation, filesystem manipulation within PHP, and JSON/XML</li>
 			</ul>
-			<ul><b>Front End Web Development</b>
+			<ul><b>Front End Development</b>
 				<li>HTML 5 markup, visual design, applied accessibility, and mobile first website design principles</li>
 				<li>CSS 3 and Bootstrap 4 fundamentals, CSS Flexbox, CSS Grid, and mobile responsive media queries</li>
 				<li>Javascript, jQuery AJAX, VUE.js framework, and Wordpress CMS installation and theme development</li>
 			</ul>
-			<ul><b>Linux/Unix System Administration</b>
+			<ul><b>System Administration</b>
 				<li>Proficiency with the shell command line, SSH, FTP, Bash Shell Scripting, and Linux kernel compilation</li>
 				<li>Ubuntu server, Red-hat server, Arch distributions, Package management, and use of Postfix mail MTA</li>
 				<li>AWS cloud management, EC2 instances, Route 53 and hosted zone DNS name record configurations</li>
@@ -42,5 +42,10 @@
 				<li>Fine tuning of electronic fuel injection and ignition systems for racing application</li>
 			</ul>
 		</div>
+	</div>
+	<div class="row justify-content-center">
+		<form action="#contact">
+  			<button class="btn btn-outline-light mt-5" type="submit" style="font-size:16px;">Hire Kyle</button>
+  		</form>
 	</div>
 </div>

@@ -7,7 +7,7 @@ require 'lib/functions.php';
 $projects = array_reverse(import_projects());
 ?>
 <div class="container-md">
-	<div class="row">
+	<div class="row justify-content-center">
 	<?php foreach ($projects as $project) { ?>
 		<div class="col-md-6">
 			<div class="rounded text-center mt-4 fulllength">
@@ -25,5 +25,11 @@ $projects = array_reverse(import_projects());
 			</div>
 		</div>
 	<?php } ?>
+	</div>
+	<div class="row justify-content-center align-items-center d-flex pt-5">
+	    <div><img class="rounded-circle mr-1" src="media/kyle_square.jpg" alt="kyle photo" style="height: 85px"></div>
+	    <form action="#contact">
+	    	<button class="btn btn-outline-dark ml-1" type="submit" style="font-size:16px;">Hire Kyle</button>
+	    </form>
 	</div>
 </div>
