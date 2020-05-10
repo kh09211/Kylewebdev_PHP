@@ -13,7 +13,7 @@
   </object>
 	-->
 	<div class="row justify-content-center">
-		<div class="col-md text-left offset-lg-1">
+		<div class="col-md text-left offset-lg-2 mr-2">
 			<ul class=""><b>Back End Development</b>
 				<li>PHP 7 best practices and design principles, use of Composer and Object Orientated Programming (OOP)</li>
 				<li>MySQL and SQLite database queries, migrations, security, and CRUD use with PHP, ORMs, and APIs</li>

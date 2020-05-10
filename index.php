@@ -26,14 +26,14 @@ require 'lib/header.php'; ?>
 		</div>
 		<?php require 'lib/services.php'; ?>
 	</div>
-	<div class="divider-box"></div>
+	<div class="divider-box mt-2"></div>
 
 	<div id="portfolio">
 		<br>
 		<div class="container-md" style="text-align: center;">
 			<h1 style="color: #3399CC;"><em><u>Portfolio</u></em></h1>
 			<br>
-			<p class="mt-3 mx-3">&nbsp Welcome! My name is Kyle and I'm a full-stack web developer from the United States. Here you will find some of my personal projects and freelance jobs that I have completed along with their descriptions and the code. Check out my <a href="http://github.com/kh09211" target="_blank">GitHub!</a> For more info about me, click on the <a href="#about">About</a> tab.</p>
+			<p class="mt-3 mx-3 pb-3">&nbsp Hello! My name is Kyle and I'm a Web Developer from the United States. I handle everything from the webserver and database to custom front end styling. Here you will find some of my personal projects and freelance work that I have completed along with their descriptions and code. Check out my <a href="http://github.com/kh09211" target="_blank">GitHub!</a> For more info about me, see my <a href="#about">About</a> page.</p>
 		</div>
 		<?php require 'lib/portfolio.php'; ?>
 	</div>

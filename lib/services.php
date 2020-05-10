@@ -21,11 +21,11 @@
 
 				<li>From comments and messages to posts and follwers, I can help your user base stay connected through secure and validated forms.</li>
 
-				<li>Once complete, your website is your property. Host, store, and deploy your web apps wherever you like, or let me handle the hosting and deployment through secure Amazon cloud webserver.</li>
+				<li>Once complete, your website is your property. Host, store, and deploy your web apps wherever you like. Or, let me handle the hosting and deployment through our secure Amazon cloud webserver.</li>
 
 				<li>I can make changes and upgrades to your existing website that uses html, css, php, javascript, SQL databases, or wordpress.</li>
 
-				<li>Your website/app code can be stored in a github repository allowing ease of change, version control, version rollback, and for collaboration on projects requiring multiple developers</li>
+				<li>Your web app code can be stored in a private or public online repository allowing ease of change, version control, and simplicity of collaboration on your project between multiple developers</li>
 			</ul>
 		</div>
 		<div class="col-md-4">
@@ -35,10 +35,11 @@
 				<b>Hosting and AWS</b>
 			</div>
 			<ul class="mt-4 mr-1">
-				<li>website development of both static (brochure) sites and dynamic applications that can support a scalable user base, secure user authorization, registration of accounts, and password management</li>
-				<li>comments, messages, and posts can be shared between the users</li>
-				<li>I Can handle scalable hosting, storage, and deployment or you can host/deploy the web app wherever you like.</li>
-				<li>Processing of payments</li>
+				<li>Large applications require complex deployment, database migrations, and caching. Let me handle this for you by hosting on our own privatge webservers. We use the same services as companies like Netflix, Airbnb, and Expedia.</li>
+				<li>Have confidence that your site will reliably be available for your customers. Our webservers run off Amazon's proven AWS Coud instances with %99.99 uptimes.</li>
+				<li>Your applications are scalable so that as your needs grow, your hosting, database, and resources can grow along with. Changes can happen within minutes, not days or weeks.</li>
+				<li>Want to be in control of everything? Let me help you set up your own hosting solution utilizing your own Amazon AWS Cloud webserver, storage volumes, databases, and DNS routing.</li>
+				<li>With your own AWS Cloud web setup, you can choose the configuration of CPU, memory, storage, and networking capacity. You get a Static IP address with this service and autoscaling capability. You don't need to be a cloud computing expert, I can administer all of this for you! </li>
 			</ul>
 		</div>
 		<div class="col-md-4">

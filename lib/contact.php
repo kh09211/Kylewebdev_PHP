@@ -27,7 +27,7 @@ if (isset($_GET['submitted'])) {
 		<br>
 		<label class="text-light mt-3" for="email"><input type="email" placeholder="Enter email address" id="email" name="email" required /></label>
 		<br>
-		<label class="mt-3" for="textbox" required><textarea id="textbox" name="textbox" placeholder="How can I help you?"></textarea></label>
+		<label class="mt-3" for="textbox" required><textarea id="textbox" name="textbox" placeholder="&nbsp How can I help you?"></textarea></label>
 		<br>
 		<button type="submit" name="submit" value="submit" class="btn btn-primary mt-3">Send!</button>
 	</form>
