@@ -54,5 +54,13 @@
         "filename": "Screenshot_unemployment2.jpeg",
         "description": "What would a web developer do if they were stuck in quarantine? Maybe create an actually functional version of their state's unemployment website? That was my inspiration after encountering multiple errors on my own state's site. Applicants arrive at the login page and either login or register. After filling out some information, appeals are made within a particular sequence directed by the 'status' tab. Information is securely stored in the database, shown in the browser, and available for changes at any time by the user. The app uses Laravel PHP framework for the back-end, with Bootstrap4 on the front-end, and MYSQL for the database.",
         "techs": "PHP Laravel, Bootstrap 4, HTML5, CSS3"
+    },
+    {
+        "projectname": "IndiGrowth Workout App",
+        "link": "http:\/\/beta.kyleweb.dev",
+        "github": "https:\/\/github.com\/kh09211\/IndiGrowth_Workout_App",
+        "filename": "Screenshot_indigrowth.jpeg",
+        "description": "This custom workout routine application was built for client IndiGrowth Health and Wellness. The site allows the administrator (IndiGrowth) to register users once they subscribe to the service, and the user can create custom workout routines complete with video descriptions. The admin can create, modify, and delete new exercises that will show up on the user's page for selection. Users can easily change routines and their old routine is archived for later viewing. Laravel framework and PHP were used for the back end along with a MYSQL database. The front end was written with bootstrap 4 and custom CSS and HTML. ",
+        "techs": "PHP Laravel, Bootstrap 4, HTML5, CSS3"
     }
 ]

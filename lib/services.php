@@ -17,13 +17,13 @@
 			<ul class="mt-4 mr-1">
 				<li>From small static sites to large ground-up dynamic applications, we can come up with the perfect solution to fit your needs.</li>
 
-				<li>My websites can support a scalable user base, secure user authorization, account registration, password management, and custom content management systems that securely and reliable serve your needs.</li>
+				<li>My fully responsive and mobile ready websites can support a scalable user base, secure user authorization, account registration, password management, and custom content management systems that securely and reliable serve your needs.</li>
 
 				<li>From comments and messages to posts and follwers, I can help your user base stay connected through secure and validated forms.</li>
 
-				<li>Once complete, your website is your property. Host, store, and deploy your web apps wherever you like. Or, let me handle the hosting and deployment through our secure Amazon cloud webserver.</li>
+				<li>Once complete, your website is your property. Host, store, and deploy your web apps wherever you like. Or, let me handle the hosting and deployment for you through a secure Amazon cloud webserver.</li>
 
-				<li>I can make changes and upgrades to your existing website that uses html, css, php, javascript, SQL databases, or wordpress.</li>
+				<li>I can make changes and upgrades to your existing website that uses HTML, CSS, PHP, Javascript, SQL databases, or wordpress.</li>
 
 				<li>Your web app code can be stored in a private or public online repository allowing ease of change, version control, and simplicity of collaboration on your project between multiple developers</li>
 			</ul>
@@ -35,11 +35,11 @@
 				<b>Hosting and AWS</b>
 			</div>
 			<ul class="mt-4 mr-1">
-				<li>Large applications require complex deployment, database migrations, and caching. Let me handle this for you by hosting on our own privatge webservers. We use the same services as companies like Netflix, Airbnb, and Expedia.</li>
-				<li>Have confidence that your site will reliably be available for your customers. Our webservers run off Amazon's proven AWS Coud instances with %99.99 uptimes.</li>
-				<li>Your applications are scalable so that as your needs grow, your hosting, database, and resources can grow along with. Changes can happen within minutes, not days or weeks.</li>
+				<li>Large applications require complex deployment, database migrations, and caching. Let me handle this for you. We use the same services as companies like Netflix, Airbnb, and Expedia.</li>
+				<li>Have confidence that your site will reliably be available for your customers. Our webservers run off Amazon's proven AWS Coud instances with %99.99 uptimes. Or use your own hosting solution like SiteGround.</li>
+				<li>Your applications are scalable so that as your needs grow, your hosting, database, and resources can grow along with you. Changes can happen within minutes, not days or weeks.</li>
 				<li>Want to be in control of everything? Let me help you set up your own hosting solution utilizing your own Amazon AWS Cloud webserver, storage volumes, databases, and DNS routing.</li>
-				<li>With your own AWS Cloud web setup, you can choose the configuration of CPU, memory, storage, and networking capacity. You get a Static IP address with this service and autoscaling capability. You don't need to be a cloud computing expert, I can administer all of this for you! </li>
+				<li>With your own AWS Cloud web setup, you can choose the configuration of CPU, memory, storage, and networking capacity that you need. You will get a Static IP address with this service and autoscaling capability. You don't need to be a cloud computing expert, I can administer all of this for you! </li>
 			</ul>
 		</div>
 		<div class="col-md-4">
@@ -49,11 +49,11 @@
 				<b>Security and More</b>
 			</div>
 			<ul class="mt-4 mr-1">
-				<li>Every website hosted by my AWS cloud webserver recieves a secure SSL certificate. I can also handle this for you on your existing website depending on the server/host you are using.</li>
+				<li>Every website hosted by an AWS cloud webserver will recieve a secure SSL certificate. I can also handle this for you on your existing website depending on the server/host you are using.</li>
 				<li>All sensitive information such as passwords are properly encrypted or hashed and stored in a secure database behind a firewall.</li>
 				<li>All web forms that connect to the database or upload files are validated with multiple layers of security to prevent malicious attacks and identity theft.</li>
-				<li>My servers undergo routine upgrades and updates to maintain the highest level of application security and dependability. I can also handle this for you on your own server or website depending on the O/S or CMS used.</li>
-				<li>Do you need a mail server setup? An existing web server configured to host a new separate domain name? DNS record changes? For anything server related, I offer my services as system administrator to deliver you the functionality and reliability you need. </li>
+				<li>Web Servers must undergo routine upgrades and updates to maintain the highest level of security and dependability for applications. Let me handle this for you. All servers that I administer recieve routine security updates and upgrades.</li>
+				<li>Do you need a mail server setup? An existing web server configured to host a new separate domain name? DNS record changes? For anything web server related, I offer my services as system administrator and deliver you top level functionality and reliability. </li>
 			</ul>
 		</div>
 	</div>
