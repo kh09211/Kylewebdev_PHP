@@ -16,3 +16,12 @@ function export_projects($projects) {
 
 	return true;
 }
+
+function is_git_private($link) {
+	//Checks to see if the github is private or public
+	if (strtolower($link) == 'private') {
+		return true;
+	}
+
+	return false;
+}

@@ -4,7 +4,7 @@
         "link": "http:\/\/www.lazymillennial.me",
         "github": "https:\/\/github.com\/kh09211\/Lazymillennial_Blog",
         "filename": "screenshot_lazymillennial.jpeg",
-        "description": "The Lazy Millennial blog site is special because it was my first attempt to share a coded website live with the world. Originally written only in HTML and CSS, the site has gone through several updates including moving to Bootstrap4's grid and nav system for added responsiveness on smaller screens, and PHP to add more structure by separating the site into multiple components that can be included into one main index page. The next version of the site will use a database to store blog content, and a custom CMS to make adding articles and blogs less time consuming.",
+        "description": "The Lazy Millennial blog site is special because it was my first attempt to share a coded website live with the world. The website showcases my past technical projects and money making endevours. Originally written only in HTML and CSS, the site has gone through several updates including moving to Bootstrap4's grid and nav system for responsiveness on smaller screens, and PHP to add more structure by separating the site into components that can be worked on separately then included into one main index page. The site serves more as a projects portfolio than a blog.",
         "techs": "HTML5, PHP, CSS3, Bootstrap4"
     },
     {
@@ -58,7 +58,7 @@
     {
         "projectname": "IndiGrowth Workout App",
         "link": "http:\/\/beta.kyleweb.dev",
-        "github": "https:\/\/github.com\/kh09211\/IndiGrowth_Workout_App",
+        "github": "private",
         "filename": "Screenshot_indigrowth.jpeg",
         "description": "This custom workout routine application was built for client IndiGrowth Health and Wellness. The site allows the administrator (IndiGrowth) to register users once they subscribe to the service, and the user can create custom workout routines complete with video descriptions. The admin can create, modify, and delete new exercises that will show up on the user's page for selection. Users can easily change routines and their old routine is archived for later viewing. Laravel framework and PHP were used for the back end along with a MYSQL database. The front end was written with bootstrap 4 and custom CSS and HTML. ",
         "techs": "PHP Laravel, Bootstrap 4, HTML5, CSS3"

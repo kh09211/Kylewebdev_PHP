@@ -17,7 +17,7 @@
 	<!-- jquery cdn link is moved to bottom of the index page for optimal page loading -->	
 	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 	<title>Kyleweb.dev</title>
-	<link rel="shortcut icon" href="../media/favicon.ico" />
+	<!-- <link rel="shortcut icon" href="../media/favicon.ico" /> -->
 </head>
 <body>
 	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>

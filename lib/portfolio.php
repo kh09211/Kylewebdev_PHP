@@ -18,7 +18,11 @@ $projects = array_reverse(import_projects());
 				<h3><b><?php echo $project['projectname']; ?></b></h3>
 				<p>
 				Link</a> to view website<br>
+				<?php if (is_git_private($project['github'])) {
+					echo 'GitHub repository is currently private<br>';
+				} else { ?>
 				Check out the code at my <a href="<?php echo $project['github']; ?>" target="_blank">GitHub</a><br>
+				<?php } ?>
 				Technologies Used: <i><?php echo $project['techs']?></i><br><hr>
 				<div class="desc"><i><?php echo $project['description']; ?></i></div>
 				</p>
