@@ -74,7 +74,7 @@ require 'lib/header.php'; ?>
   	<div id="contact" class="bg-dark">
   		<div class="container-md text-center">
 			<br>
-			<h1 class="text-light display-4">Contact me!</h1>
+			<h1 class="text-light display-4">Contact Kyle!</h1>
 			<br>
 			<?php require 'lib/contact.php'; ?>
 		</div>
